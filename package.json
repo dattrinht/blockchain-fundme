@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "compile": "brownie compile",
+        "deploy-local": "brownie run scripts/deploy.py --network ganache-local",
+        "run-local": "brownie run scripts/fund_and_withdraw.py --network ganache-local",
+        "deploy-rinkeby": "brownie run scripts/deploy.py --network rinkeby",
+        "run-rinkeby": "brownie run scripts/fund_and_withdraw.py --network rinkeby"
+    }
+}
